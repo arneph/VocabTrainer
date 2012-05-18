@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1485F06515668B29004703E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1485F06415668B29004703E4 /* Cocoa.framework */; };
+		1485F06F15668B29004703E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1485F06D15668B29004703E4 /* InfoPlist.strings */; };
+		1485F07115668B29004703E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1485F07015668B29004703E4 /* main.m */; };
+		1485F07515668B29004703E4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1485F07315668B29004703E4 /* Credits.rtf */; };
+		1485F07815668B29004703E4 /* vctDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1485F07715668B29004703E4 /* vctDocument.m */; };
+		1485F07B15668B29004703E4 /* vctDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1485F07915668B29004703E4 /* vctDocument.xib */; };
+		1485F07E15668B29004703E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1485F07C15668B29004703E4 /* MainMenu.xib */; };
+		1485F08615668B29004703E4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1485F08515668B29004703E4 /* SenTestingKit.framework */; };
+		1485F08715668B29004703E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1485F06415668B29004703E4 /* Cocoa.framework */; };
+		1485F08F15668B29004703E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1485F08D15668B29004703E4 /* InfoPlist.strings */; };
+		1485F09215668B2A004703E4 /* VocabTrainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1485F09115668B2A004703E4 /* VocabTrainerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1485F08815668B29004703E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1485F05715668B29004703E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1485F05F15668B29004703E4;
+			remoteInfo = VocabTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1485F06015668B29004703E4 /* VocabTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1485F06415668B29004703E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1485F06715668B29004703E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1485F06815668B29004703E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1485F06915668B29004703E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1485F06C15668B29004703E4 /* VocabTrainer-Info.plist */ = {isa = PBXFileReference; path = "VocabTrainer-Info.plist"; sourceTree = "<group>"; };
+		1485F06E15668B29004703E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1485F07015668B29004703E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1485F07215668B29004703E4 /* VocabTrainer-Prefix.pch */ = {isa = PBXFileReference; path = "VocabTrainer-Prefix.pch"; sourceTree = "<group>"; };
+		1485F07415668B29004703E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1485F07615668B29004703E4 /* vctDocument.h */ = {isa = PBXFileReference; path = vctDocument.h; sourceTree = "<group>"; };
+		1485F07715668B29004703E4 /* vctDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vctDocument.m; sourceTree = "<group>"; };
+		1485F07A15668B29004703E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/vctDocument.xib; sourceTree = "<group>"; };
+		1485F07D15668B29004703E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1485F08415668B29004703E4 /* VocabTrainerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabTrainerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1485F08515668B29004703E4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1485F08C15668B29004703E4 /* VocabTrainerTests-Info.plist */ = {isa = PBXFileReference; path = "VocabTrainerTests-Info.plist"; sourceTree = "<group>"; };
+		1485F08E15668B29004703E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1485F09015668B29004703E4 /* VocabTrainerTests.h */ = {isa = PBXFileReference; path = VocabTrainerTests.h; sourceTree = "<group>"; };
+		1485F09115668B2A004703E4 /* VocabTrainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocabTrainerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1485F05D15668B29004703E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485F06515668B29004703E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1485F08015668B29004703E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485F08615668B29004703E4 /* SenTestingKit.framework in Frameworks */,
+				1485F08715668B29004703E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1485F05515668B29004703E4 = {
+			isa = PBXGroup;
+			children = (
+				1485F06A15668B29004703E4 /* VocabTrainer */,
+				1485F08A15668B29004703E4 /* VocabTrainerTests */,
+				1485F06315668B29004703E4 /* Frameworks */,
+				1485F06115668B29004703E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1485F06115668B29004703E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1485F06015668B29004703E4 /* VocabTrainer.app */,
+				1485F08415668B29004703E4 /* VocabTrainerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1485F06315668B29004703E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1485F06415668B29004703E4 /* Cocoa.framework */,
+				1485F08515668B29004703E4 /* SenTestingKit.framework */,
+				1485F06615668B29004703E4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1485F06615668B29004703E4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1485F06715668B29004703E4 /* AppKit.framework */,
+				1485F06815668B29004703E4 /* CoreData.framework */,
+				1485F06915668B29004703E4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1485F06A15668B29004703E4 /* VocabTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				1485F07615668B29004703E4 /* vctDocument.h */,
+				1485F07715668B29004703E4 /* vctDocument.m */,
+				1485F07915668B29004703E4 /* vctDocument.xib */,
+				1485F07C15668B29004703E4 /* MainMenu.xib */,
+				1485F06B15668B29004703E4 /* Supporting Files */,
+			);
+			path = VocabTrainer;
+			sourceTree = "<group>";
+		};
+		1485F06B15668B29004703E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1485F06C15668B29004703E4 /* VocabTrainer-Info.plist */,
+				1485F06D15668B29004703E4 /* InfoPlist.strings */,
+				1485F07015668B29004703E4 /* main.m */,
+				1485F07215668B29004703E4 /* VocabTrainer-Prefix.pch */,
+				1485F07315668B29004703E4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1485F08A15668B29004703E4 /* VocabTrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1485F09015668B29004703E4 /* VocabTrainerTests.h */,
+				1485F09115668B2A004703E4 /* VocabTrainerTests.m */,
+				1485F08B15668B29004703E4 /* Supporting Files */,
+			);
+			path = VocabTrainerTests;
+			sourceTree = "<group>";
+		};
+		1485F08B15668B29004703E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1485F08C15668B29004703E4 /* VocabTrainerTests-Info.plist */,
+				1485F08D15668B29004703E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1485F05F15668B29004703E4 /* VocabTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1485F09515668B2A004703E4 /* Build configuration list for PBXNativeTarget "VocabTrainer" */;
+			buildPhases = (
+				1485F05C15668B29004703E4 /* Sources */,
+				1485F05D15668B29004703E4 /* Frameworks */,
+				1485F05E15668B29004703E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocabTrainer;
+			productName = VocabTrainer;
+			productReference = 1485F06015668B29004703E4 /* VocabTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1485F08315668B29004703E4 /* VocabTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1485F09815668B2A004703E4 /* Build configuration list for PBXNativeTarget "VocabTrainerTests" */;
+			buildPhases = (
+				1485F07F15668B29004703E4 /* Sources */,
+				1485F08015668B29004703E4 /* Frameworks */,
+				1485F08115668B29004703E4 /* Resources */,
+				1485F08215668B29004703E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1485F08915668B29004703E4 /* PBXTargetDependency */,
+			);
+			name = VocabTrainerTests;
+			productName = VocabTrainerTests;
+			productReference = 1485F08415668B29004703E4 /* VocabTrainerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1485F05715668B29004703E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = vct;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1485F05A15668B29004703E4 /* Build configuration list for PBXProject "VocabTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1485F05515668B29004703E4;
+			productRefGroup = 1485F06115668B29004703E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1485F05F15668B29004703E4 /* VocabTrainer */,
+				1485F08315668B29004703E4 /* VocabTrainerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1485F05E15668B29004703E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485F06F15668B29004703E4 /* InfoPlist.strings in Resources */,
+				1485F07515668B29004703E4 /* Credits.rtf in Resources */,
+				1485F07B15668B29004703E4 /* vctDocument.xib in Resources */,
+				1485F07E15668B29004703E4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1485F08115668B29004703E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485F08F15668B29004703E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1485F08215668B29004703E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1485F05C15668B29004703E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485F07115668B29004703E4 /* main.m in Sources */,
+				1485F07815668B29004703E4 /* vctDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1485F07F15668B29004703E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485F09215668B2A004703E4 /* VocabTrainerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1485F08915668B29004703E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1485F05F15668B29004703E4 /* VocabTrainer */;
+			targetProxy = 1485F08815668B29004703E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1485F06D15668B29004703E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1485F06E15668B29004703E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1485F07315668B29004703E4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1485F07415668B29004703E4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1485F07915668B29004703E4 /* vctDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1485F07A15668B29004703E4 /* en */,
+			);
+			name = vctDocument.xib;
+			sourceTree = "<group>";
+		};
+		1485F07C15668B29004703E4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1485F07D15668B29004703E4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1485F08D15668B29004703E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1485F08E15668B29004703E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1485F09315668B2A004703E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1485F09415668B2A004703E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1485F09615668B2A004703E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VocabTrainer/VocabTrainer-Prefix.pch";
+				INFOPLIST_FILE = "VocabTrainer/VocabTrainer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1485F09715668B2A004703E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VocabTrainer/VocabTrainer-Prefix.pch";
+				INFOPLIST_FILE = "VocabTrainer/VocabTrainer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1485F09915668B2A004703E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VocabTrainer.app/Contents/MacOS/VocabTrainer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VocabTrainer/VocabTrainer-Prefix.pch";
+				INFOPLIST_FILE = "VocabTrainerTests/VocabTrainerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1485F09A15668B2A004703E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VocabTrainer.app/Contents/MacOS/VocabTrainer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VocabTrainer/VocabTrainer-Prefix.pch";
+				INFOPLIST_FILE = "VocabTrainerTests/VocabTrainerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1485F05A15668B29004703E4 /* Build configuration list for PBXProject "VocabTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1485F09315668B2A004703E4 /* Debug */,
+				1485F09415668B2A004703E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1485F09515668B2A004703E4 /* Build configuration list for PBXNativeTarget "VocabTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1485F09615668B2A004703E4 /* Debug */,
+				1485F09715668B2A004703E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1485F09815668B2A004703E4 /* Build configuration list for PBXNativeTarget "VocabTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1485F09915668B2A004703E4 /* Debug */,
+				1485F09A15668B2A004703E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1485F05715668B29004703E4 /* Project object */;
+}
